@@ -1,0 +1,30 @@
+@media (min-width: 480px) and (max-width: 768px) {
+    .inside-container {
+        width: auto;
+    }
+
+    .main {
+        margin: 0 auto;
+    }
+.image {
+    width: 280px;
+    height: 180px;
+}
+    .card-margin-left {
+        margin-left: auto;
+    }
+
+    .card {
+        margin-left: 50px;
+    }
+
+    .description {
+        margin: 0;
+        height: 20px;
+
+    }
+
+    .header {
+        margin-bottom: 0;
+    }
+}

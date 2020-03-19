@@ -1,0 +1,149 @@
+.container {
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 768px;
+    color: white;
+    font-family: "Verdana";
+}
+
+.inside-container {
+    width: 1064px;
+    height: 576px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 37px;
+    margin-bottom: 77px;
+    position: relative;
+}
+
+.house-white {
+    position: absolute;
+    left: 0;
+}
+
+.house-white:hover {
+    opacity: 0;
+}
+
+.price {
+    float: left;
+    width: 40px;
+    margin-left: 30px;
+}
+
+.price > span {
+    font-size: 12px;
+}
+
+.view-det {
+    float: right;
+    margin-left: 123px;
+    font-size: 13px;
+    margin-top: 23px;
+}
+
+.view-det:after {
+    content: " >";
+}
+
+.logo-image {
+    float: left;
+}
+
+.logo-image:hover .house-white {
+    opacity: 0;
+}
+
+.logo-image:hover .logo-text {
+    color: #f26522;
+}
+
+.logo-text {
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.logo-text_big {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.logo-text_small {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.info {
+    float: right;
+    text-align: right;
+    margin-right: 17px;
+}
+
+.card {
+    float: left;
+}
+
+.card:hover .hover-box {
+    opacity: 1;
+}
+
+.card:hover .description {
+    color: #f26522;
+}
+
+.card-margin-left {
+    margin-left: 54px;
+}
+
+.image {
+    border: 2px solid;
+    border-image: linear-gradient(0deg, rgb(0, 7, 3), rgb(254, 254, 254)) 1;
+    height: 200px;
+    position: relative;
+}
+
+.hover-image {
+    width: 308px;
+}
+
+.hover-box {
+    position: absolute;
+    bottom: -4px;
+    opacity: 0;
+}
+
+.hover-box:hover {
+    display: block;
+    opacity: 1;
+    transition: ease-in 0.5s;
+}
+
+.textorange {
+    position: absolute;
+    bottom: 20px;
+}
+
+.description {
+    height: 30px;
+    margin-bottom: 37px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.clearfix {
+    clear: both;
+}
