@@ -1,0 +1,29 @@
+@media  screen and (min-width: 481px) and (max-width: 755px) {
+
+    .info {
+        font-size: 11px;
+        margin-right: 55px;
+    }
+    .card-hidden {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 6px;
+    }
+    .card {
+        display: inline-block;
+        text-align: center;
+    }
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    .house-white {
+        margin-left: 40px;
+    }
+    .footer {
+        margin-top: 100px;
+    }
+}

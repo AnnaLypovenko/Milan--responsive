@@ -20,9 +20,9 @@
         margin-right: 55px;
     }
 
-    .logo-text {
-        padding-bottom: 10px;
-    }
+    /*.logo-text {*/
+    /*    padding-bottom: 10px;*/
+    /*}*/
 
     .logo {
         margin-left: 15px;
@@ -39,7 +39,7 @@
     .description {
         margin: 44px;
         height: 10px;
-        font-size: 13px;
+
     }
 
     .header {
