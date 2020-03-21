@@ -1,5 +1,22 @@
-@media (max-width: 479px) {
- .main {
-     text-align: center;
- }
+@media  screen and (max-width: 479px) {
+
+    .info {
+        font-size: 11px;
+        margin-right: 55px;
+    }
+    .card {
+
+    }
+
+    .card-hidden {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 6px;
+    }
+
+    .house-white {
+        margin-left: 40px;
+    }
 }

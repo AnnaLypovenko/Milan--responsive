@@ -1,17 +1,35 @@
-@media (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
     .inside-container {
-        width: auto;
+        width: inherit;
     }
 
     .main {
         margin: 0 auto;
     }
-.image {
-    width: 280px;
-    height: 180px;
-}
+
+    /*.image {*/
+    /*    width: 280px;*/
+    /*    height: 180px;*/
+    /*}*/
     .card-margin-left {
-        margin-left: auto;
+        margin-left: 50px;
+    }
+
+    .info {
+        font-size: 14px;
+        margin-right: 55px;
+    }
+
+    .logo-text {
+        padding-bottom: 10px;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    .house-white {
+        margin-left: 50px;
     }
 
     .card {
@@ -19,12 +37,33 @@
     }
 
     .description {
-        margin: 0;
-        height: 20px;
-
+        margin: 44px;
+        height: 10px;
+        font-size: 13px;
     }
 
     .header {
         margin-bottom: 0;
+    }
+
+    /*.hover-image-small {*/
+    /*    width: 281px;*/
+
+    /*}*/
+
+    .hover-box {
+        bottom: 62px;
+    }
+
+    .tablet-card {
+        height: 186px;
+    }
+
+    .price {
+        margin-left: 15px;
+    }
+
+    .card-hidden-tablet {
+        display: none;
     }
 }
