@@ -8,6 +8,7 @@
     .card {
         display: inline-block;
     }
+
     .main {
         margin: 0 auto;
     }
@@ -23,4 +24,5 @@
     .house-white {
         margin-left: 40px;
     }
+
 }

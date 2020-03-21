@@ -1,8 +1,4 @@
-@import "mobile-landscape.css";
-@import "desctop.css";
 
-@import url(tablet.css);
-@import url(mobile.css);
 .container {
     background-image: url("./images/background.jpg");
     background-repeat: no-repeat;
