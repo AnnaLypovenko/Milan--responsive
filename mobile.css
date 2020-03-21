@@ -5,7 +5,7 @@
         margin-right: 55px;
     }
     .card {
-
+  display: inline-block;
     }
 
     .card-hidden {
