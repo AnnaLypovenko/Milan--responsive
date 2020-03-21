@@ -1,4 +1,8 @@
+@import "mobile-landscape.css";
+@import "desctop.css";
 
+@import url(tablet.css);
+@import url(mobile.css);
 .container {
     background-image: url("./images/background.jpg");
     background-repeat: no-repeat;
@@ -10,7 +14,7 @@
 }
 
 .inside-container {
-    width: 1064px;
+    /*width: 1064px;*/
     height: 576px;
     margin: 0 auto;
 }
@@ -112,6 +116,9 @@ a {
     border-image: linear-gradient(0deg, rgb(0, 7, 3), rgb(254, 254, 254)) 1;
 
     position: relative;
+}
+.main {
+    margin-left: 100px;
 }
 
 .hover-image {

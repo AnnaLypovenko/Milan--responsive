@@ -1,0 +1,10 @@
+@media screen and (max-width: 1200px) {
+
+    .main {
+        margin-left: 40px;
+    }
+
+    .card-margin-left {
+        margin-left: 20px;
+    }
+}

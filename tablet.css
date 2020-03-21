@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 621px) and (max-width: 768px) {
     .inside-container {
         width: inherit;
     }
@@ -7,10 +7,6 @@
         margin: 0 auto;
     }
 
-    /*.image {*/
-    /*    width: 280px;*/
-    /*    height: 180px;*/
-    /*}*/
     .card-margin-left {
         margin-left: 50px;
     }
@@ -20,21 +16,12 @@
         margin-right: 55px;
     }
 
-    /*.logo-text {*/
-    /*    padding-bottom: 10px;*/
-    /*}*/
-
     .logo {
         margin-left: 15px;
     }
 
     .house-white {
         margin-left: 50px;
-    }
-
-    .card {
-        margin-left: 50px;
-        float: none;
     }
 
     .description {
@@ -46,11 +33,6 @@
     .header {
         margin-bottom: 0;
     }
-
-    /*.hover-image-small {*/
-    /*    width: 281px;*/
-
-    /*}*/
 
     .hover-box {
         bottom: 62px;
@@ -64,7 +46,8 @@
         margin-left: 15px;
     }
 
-    .card-hidden-tablet {
+    .card.card-hidden-tablet {
         display: none;
     }
+
 }

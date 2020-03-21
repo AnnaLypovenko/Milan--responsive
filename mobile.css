@@ -1,11 +1,15 @@
-@media  screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {
 
     .info {
         font-size: 11px;
         margin-right: 55px;
     }
+
     .card {
-  display: inline-block;
+        display: inline-block;
+    }
+    .main {
+        margin: 0 auto;
     }
 
     .card-hidden {
