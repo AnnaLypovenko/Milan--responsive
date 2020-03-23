@@ -99,7 +99,8 @@ a {
 }
 a>.card:hover .hover-box {
     opacity: 1;
-    transition: ease-in-out 1s;
+    transition: ease 1s;
+    transform: translateY(-100%);
 }
 
 .card:hover .description {
@@ -126,9 +127,9 @@ a>.card:hover .hover-box {
 
 .hover-box {
     position: relative;
-    bottom: 67px;
+    /*bottom: 67px;*/
     margin-left: 2px;
-    opacity: 1;
+    opacity: 0;
 }
 .textorange {
     position: absolute;
