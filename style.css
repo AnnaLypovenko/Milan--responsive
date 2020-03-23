@@ -127,7 +127,6 @@ a>.card:hover .hover-box {
 
 .hover-box {
     position: relative;
-    /*bottom: 67px;*/
     margin-left: 2px;
     opacity: 0;
 }
