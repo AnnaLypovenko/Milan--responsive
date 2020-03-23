@@ -24,7 +24,7 @@
 .house-white {
     position: absolute;
     left: 0;
-    margin-left: 35px;
+    margin-left: 50px;
 }
 
 .house-white:hover {
@@ -54,7 +54,7 @@
 
 .logo-image {
     float: left;
-    margin-left: 35px;
+    margin-left: 50px;
 }
 
 .logo-image:hover .house-white {
@@ -94,9 +94,12 @@ a {
 .card {
     float: left;
 }
+.tablet-card {
 
-.card:hover .hover-box {
+}
+a>.card:hover .hover-box {
     opacity: 1;
+    transition: ease-in-out 1s;
 }
 
 .card:hover .description {
@@ -104,7 +107,7 @@ a {
 }
 
 .card-margin-left {
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .image {
@@ -114,7 +117,7 @@ a {
 }
 
 .main {
-    margin-left: 100px;
+  margin: 0 auto;
 }
 
 .hover-image {
@@ -125,15 +128,8 @@ a {
     position: relative;
     bottom: 67px;
     margin-left: 2px;
-    opacity: 0;
-}
-
-.hover-box:hover {
-    display: block;
     opacity: 1;
-    transition: ease-in 0.5s;
 }
-
 .textorange {
     position: absolute;
     bottom: 20px;

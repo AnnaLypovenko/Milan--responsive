@@ -9,17 +9,8 @@
         display: none;
     }
 
-    .logo {
-        margin-left: 6px;
-    }
-
-    .card {
-        display: inline-block;
-        text-align: center;
-    }
-
-    .house-white {
-        margin-left: 40px;
+    .card-margin-left {
+        margin-left: 20%;
     }
 
     .footer {

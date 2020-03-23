@@ -5,10 +5,6 @@
         margin-right: 55px;
     }
 
-    .card {
-        display: inline-block;
-    }
-
     .main {
         margin: 0 auto;
     }
@@ -18,11 +14,15 @@
     }
 
     .logo {
-        margin-left: 6px;
+        margin-left: 10px;
+    }
+
+    .card-margin-left {
+        margin-left: 7%;
     }
 
     .house-white {
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
 }

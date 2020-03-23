@@ -1,11 +1,11 @@
 @media screen and (min-width: 769px) and (max-width: 1040px) {
 
     .main {
-        margin-left: 40px;
+        width: 90%;
     }
 
     .card-margin-left {
-        margin-left: 20px;
+        margin-left: 10%;
     }
     .card-hidden.card-hidden-tablet {
         display: none;
